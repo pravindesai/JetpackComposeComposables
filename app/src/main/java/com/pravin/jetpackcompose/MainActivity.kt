@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun App_Ui() {
     JetpackComposeTheme {
-        LazyDataList()
+        StickyHeaderDemo()
     }
 }
 
