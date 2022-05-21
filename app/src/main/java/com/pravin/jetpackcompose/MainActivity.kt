@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun App_Ui() {
     JetpackComposeTheme {
-        ToolbarWithForm()
+        LazyDataList()
     }
 }
 
@@ -53,10 +53,10 @@ fun ToolbarWithForm(){
         Row(modifier = Modifier.fillMaxHeight()) {
             Column( verticalArrangement = Arrangement.Center,
                     modifier = Modifier
-                    .fillMaxHeight()
-                    .fillMaxWidth()
-                    .background(Color.White)
-                    .padding(5.dp)) {
+                        .fillMaxHeight()
+                        .fillMaxWidth()
+                        .background(Color.White)
+                        .padding(5.dp)) {
                 LoginForm(modifier = Modifier.background(Color.White))
             }
         }
