@@ -16,8 +16,15 @@ fun NavigationDesign() {
         composable(route = Screen.FirstScreen.routs) {
             FirstScreen(navController = navController)
         }
-        composable(Screen.SecondScreen.routs) {
-            SecondScreen(navController= navController)
+        composable(route = Screen.SecondScreen.routs+"/{data}",
+                    arguments = listOf(
+                        navArgument("data"){
+                            type = NavType.StringType
+                            defaultValue = "DEFAULT"
+                            nullable = true
+                        }
+                    )) {args->
+            SecondScreen(data = args.arguments?.getString("data")?:"" , navController = navController)
         }
     }
 }

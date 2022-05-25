@@ -13,14 +13,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavController
-
 @Composable
 @Preview
-fun SecondScreen(data:String="", navController: NavController= NavController(LocalContext.current)) {
+fun SecondScreen(data:String="", navController: NavController = NavController(LocalContext.current)) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Green),
+            .background(Color.Magenta),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {

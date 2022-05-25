@@ -1,5 +1,7 @@
 package com.pravin.jetpackcompose.screens
 
+import android.content.Context
+import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,8 +20,9 @@ import androidx.compose.runtime.*
 
 @Composable
 @Preview
-fun FirstScreen(navController: NavController= NavController(LocalContext.current)) {
+fun FirstScreen(navController: NavController = NavController(LocalContext.current)) {
     var text by remember{ mutableStateOf("")}
+    val mContext:Context = LocalContext.current
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -32,7 +35,11 @@ fun FirstScreen(navController: NavController= NavController(LocalContext.current
             label = { Text(text = "Enter your text") }
         )
         Button(onClick = {
-            navController.navigate(Screen.SecondScreen.routs)
+            if (text.isBlank()){
+                Toast.makeText(mContext, "Text Required", Toast.LENGTH_SHORT).show()
+                return@Button
+            }
+            navController.navigate(Screen.SecondScreen.withArgs(text))
         }) {
             Text(text = "Submit")
         }
