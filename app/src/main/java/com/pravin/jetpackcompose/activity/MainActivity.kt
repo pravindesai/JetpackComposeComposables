@@ -14,9 +14,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.pravin.jetpackcompose.LoginForm
-import com.pravin.jetpackcompose.StickyHeaderDemo
 import com.pravin.jetpackcompose.ToolBar
-import com.pravin.jetpackcompose.screens.NavigationDesign
+import com.pravin.jetpackcompose.screens_navigation.NavigationDesign
 import com.pravin.jetpackcompose.ui.theme.JetpackComposeTheme
 
 @ExperimentalMaterialApi

@@ -1,4 +1,4 @@
-package com.pravin.jetpackcompose.screens
+package com.pravin.jetpackcompose.screens_navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
