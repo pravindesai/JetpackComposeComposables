@@ -1,4 +1,4 @@
-package com.pravin.jetpackcompose
+package com.pravin.jetpackcompose.composable
 
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.material.BottomNavigation
@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
+import com.pravin.jetpackcompose.R
 
 @Composable
 @Preview(showSystemUi = true)

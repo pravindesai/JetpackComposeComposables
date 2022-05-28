@@ -1,4 +1,4 @@
-package com.pravin.jetpackcompose.screens
+package com.pravin.jetpackcompose.screens_navigation
 
 sealed class Screen(var routs:String) {
     object FirstScreen:Screen("First Screen")
