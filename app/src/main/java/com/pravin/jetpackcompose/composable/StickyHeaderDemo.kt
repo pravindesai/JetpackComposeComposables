@@ -42,7 +42,7 @@ fun StickyHeaderDemo() {
             itemsIndexed(dataMap[it]?: listOf()){ index, value->
                 Card(modifier = Modifier.fillMaxWidth().padding(10.dp),
                     backgroundColor = Color.Blue) {
-                    Text(text = "$value",color = Color.White,
+                    Text(text = value,color = Color.White,
                         modifier = Modifier.padding(5.dp).fillMaxWidth(),
                         fontSize = 18.sp, textAlign = TextAlign.Center)
                 }
