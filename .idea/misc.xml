@@ -9,8 +9,12 @@
         <entry key="..\:/Users/Batman/StudioProjects/JetpackComposeComposables/app/src/main/java/com/pravin/jetpackcompose/bottom_navigation/screens/HomeScreen.kt" value="0.25" />
         <entry key="..\:/Users/Batman/StudioProjects/JetpackComposeComposables/app/src/main/java/com/pravin/jetpackcompose/bottom_navigation/screens/Profile.kt" value="0.5" />
         <entry key="..\:/Users/Batman/StudioProjects/JetpackComposeComposables/app/src/main/java/com/pravin/jetpackcompose/bottom_navigation/screens/Settings.kt" value="0.2379746835443038" />
+        <entry key="..\:/Users/Batman/StudioProjects/JetpackComposeComposables/app/src/main/java/com/pravin/jetpackcompose/composable/ContentShimmerAnimation.kt" value="0.35833333333333334" />
+        <entry key="..\:/Users/Batman/StudioProjects/JetpackComposeComposables/app/src/main/java/com/pravin/jetpackcompose/composable/LazyList.kt" value="0.18523206751054852" />
         <entry key="..\:/Users/Batman/StudioProjects/JetpackComposeComposables/app/src/main/java/com/pravin/jetpackcompose/composable/LoginForm.kt" value="0.462037037037037" />
         <entry key="..\:/Users/Batman/StudioProjects/JetpackComposeComposables/app/src/main/java/com/pravin/jetpackcompose/composable/NavigationComponent.kt" value="0.1" />
+        <entry key="..\:/Users/Batman/StudioProjects/JetpackComposeComposables/app/src/main/java/com/pravin/jetpackcompose/composable/ProgressButton.kt" value="1.5925925925925926" />
+        <entry key="..\:/Users/Batman/StudioProjects/JetpackComposeComposables/app/src/main/java/com/pravin/jetpackcompose/composable/TextFieldComponent.kt" value="0.5025974025974026" />
       </map>
     </option>
   </component>
