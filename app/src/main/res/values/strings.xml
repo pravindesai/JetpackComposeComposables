@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">JetpackCompose</string>
+    <string name="xml_view_box">xml view box</string>
 </resources>
